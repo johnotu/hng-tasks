@@ -14,7 +14,7 @@
   $sql = "SELECT id, name, length FROM oku";
   $result = $conn -> query($sql);
 
-  echo $result;
+  echo print_r($result, true);
 
   $conn -> close();
 ?>
