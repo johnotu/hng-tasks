@@ -14,4 +14,6 @@
   $result = $conn -> query($sql);
 
   echo $result;
+
+  $conn -> close();
 ?>
